@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicativo de Lista de Tarefas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tarefas</h1>
+        <form id="task-form">
+            <label for="task">Tarefa:</label>
+            <input type="text" id="task" placeholder="Digite sua tarefa" required>
+            <label for="due-date">Data de Vencimento:</label>
+            <input type="date" id="due-date" required>
+            <button type="submit">Adicionar Tarefa</button>
+        </form>
+        <div id="task-list" class="task-list"></div>
+        <select id="sort-selector">
+            <option value="due-date">Ordenar por Data de Vencimento</option>
+            <option value="addition-order">Ordenar por Ordem de Adição</option>
+        </select>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mar com Peixes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="ocean">
+        <div class="fish-container">
+            <div class="fish fish1"></div>
+            <div class="fish fish2"></div>
+            <div class="fish fish3"></div>
+            <!-- Adicione mais peixes conforme necessário -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
